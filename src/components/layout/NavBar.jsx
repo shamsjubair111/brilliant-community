@@ -22,7 +22,7 @@ const NavBar = () => {
           <div className="mr-8 flex align-center">
             <Link><img alt="app_logo" src={logo}/></Link>
 
-            <FontAwesomeIcon icon={faBars} className="ml-24 mt-1.5"  style={{color: "#17177b" , cursor: "pointer"}}/>
+            <FontAwesomeIcon icon={faBars} className="ml-40 mt-1.5"  style={{color: "#17177b" , cursor: "pointer"}}/>
           </div>
 
 

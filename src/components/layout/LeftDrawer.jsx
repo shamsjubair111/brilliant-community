@@ -67,7 +67,7 @@ const LeftDrawer = () => {
 
     return (
         <div
-        className={`fixed inset-y-0 left-0 z-30 w-64 bg-white border-r shadow-lg transform ${isDrawerOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out`} style={{boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",marginTop: "72px"}}
+        className={`fixed inset-y-0 left-0 z-30 bg-white border-r shadow-lg transform ${isDrawerOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out`} style={{boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",marginTop: "72px",width:"307px"}} 
       >
         <aside className="h-full overflow-y-auto p-4">
           
