@@ -13,6 +13,7 @@ import Contacts from '../components/common/Contacts';
 import Testimonials from '../components/common/Testimonials';
 import NewsLetter from '../components/common/NewsLetter';
 import ShowTime from '../components/common/ShowTime';
+import Calendar from '../components/common/Calendar';
 
 const HomePageTwo = () => {
     return (
@@ -50,6 +51,8 @@ const HomePageTwo = () => {
 
             {/* right column*/}
             <div className='w-72 pl-4'>
+
+              <div className='mt-7'><Calendar/></div>
 
               <div className='mt-7'><ShowTime/></div>
             

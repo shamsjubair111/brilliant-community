@@ -42,7 +42,7 @@ const Carousel = () => {
     return (
 
         <div className="relative w-full max-w-4xl mx-auto">
-      <div className="relative h-[400px] overflow-hidden rounded-xl">
+      <div className="relative h-[500px] overflow-hidden rounded-xl">
         {slides.map((slide, index) => (
           <div
             key={slide.id}
