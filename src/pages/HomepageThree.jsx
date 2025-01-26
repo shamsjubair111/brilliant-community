@@ -11,6 +11,11 @@ import MembersAwardForum from '../components/common/MembersAwardForum';
 import Poll from '../components/common/Poll';
 import Groups2 from '../components/common/Groups2';
 import ProgressBar from '../components/common/ProgressBar';
+import VipQuotes from '../components/common/VipQuotes';
+import Awards from '../components/common/Awards';
+import Members from '../components/common/Members';
+import UpcomingEvent from '../components/common/UpcomingEvent';
+import LeaveApplication from '../components/common/LeaveApplication';
 
 const HomepageThree = () => {
 
@@ -59,6 +64,15 @@ const HomepageThree = () => {
         {/* right column*/}
         <div className='w-72 pl-4'>
 
+        <VipQuotes/>
+
+        <div className='mt-8'><Awards/></div>
+
+        <div className='mt-8'><Members/></div>
+
+       <div className='bg-white rounded-md shadow-sm mt-8'><UpcomingEvent/></div>
+
+       <div className='mt-8 shadow-sm rounded-md'><LeaveApplication/></div>
         
 
         </div>

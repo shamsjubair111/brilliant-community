@@ -16,7 +16,7 @@ const UsefulTools = () => {
         <div>
 
         
-        <div className="grid grid-cols-2 gap-4 p-4 bg-white rounded-md">
+        <div className="grid grid-cols-2 gap-4 p-4 bg-white rounded-md shadow-sm">
         <h3 className='font-bold' style={{color: "#142d6f"}}>Useful Tools</h3>
         <br/>
         {quickActions.map((icon) => (

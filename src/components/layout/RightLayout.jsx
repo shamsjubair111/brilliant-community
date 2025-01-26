@@ -17,6 +17,9 @@ import ErrorPage from "../../pages/ErrorPage";
 import HomePageOne from '../../pages/HomePageOne';
 import HomePageTwo from '../../pages/HomePageTwo';
 import HomepageThree from '../../pages/HomepageThree';
+import MemberActivity from '../../pages/MemberActivity';
+import MemberProfile from '../../pages/MemberProfile';
+import MemberProfileSettings from '../../pages/MemberProfileSettings';
 
 const RightLayout = () => {
 
@@ -33,6 +36,9 @@ const RightLayout = () => {
        <Route path="/activity" element={<Activity />} />
        <Route path="/messages" element={<Messages />} />
        <Route path="/members" element={<Members />} />
+       <Route path="/member-activity" element={<MemberActivity />} />
+       <Route path="/member-profile" element={<MemberProfile />} />
+       <Route path="/member-profile-settings" element={<MemberProfileSettings />} />
        <Route path="/groups" element={<Groups />} />
        <Route path="/forums" element={<Forums />} />
        <Route path="/courses" element={<Courses />} />
