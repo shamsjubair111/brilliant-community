@@ -20,6 +20,11 @@ import HomepageThree from '../../pages/HomepageThree';
 import MemberActivity from '../../pages/MemberActivity';
 import MemberProfile from '../../pages/MemberProfile';
 import MemberProfileSettings from '../../pages/MemberProfileSettings';
+import MemberAccountSettings from '../../pages/MemberAccountSettings';
+import MemberPrivacyAndSecurity from '../../pages/MemberPrivacyAndSecurity';
+import MemberNotification from '../../pages/MemberNotification';
+import MemberGeneral from '../../pages/MemberGeneral';
+import MemberNotificationCount from '../../pages/MemberNotificationCount';
 
 const RightLayout = () => {
 
@@ -37,8 +42,13 @@ const RightLayout = () => {
        <Route path="/messages" element={<Messages />} />
        <Route path="/members" element={<Members />} />
        <Route path="/member-activity" element={<MemberActivity />} />
+       <Route path="/member-notification-count" element={<MemberNotificationCount />} />
        <Route path="/member-profile" element={<MemberProfile />} />
+       <Route path="/member-notification" element={<MemberNotification />} />
+       <Route path="/member-general" element={<MemberGeneral />} />
        <Route path="/member-profile-settings" element={<MemberProfileSettings />} />
+       <Route path="/member-account-settings" element={<MemberAccountSettings />} />
+       <Route path="/member-privacy-and-security" element={<MemberPrivacyAndSecurity />} />
        <Route path="/groups" element={<Groups />} />
        <Route path="/forums" element={<Forums />} />
        <Route path="/courses" element={<Courses />} />
