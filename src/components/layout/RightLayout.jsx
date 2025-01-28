@@ -25,6 +25,17 @@ import MemberPrivacyAndSecurity from '../../pages/MemberPrivacyAndSecurity';
 import MemberNotification from '../../pages/MemberNotification';
 import MemberGeneral from '../../pages/MemberGeneral';
 import MemberNotificationCount from '../../pages/MemberNotificationCount';
+import MemberForums from '../../pages/MemberForums';
+import ForumsGeneralDiscussion from '../../pages/ForumsGeneralDiscussion';
+import ForumsDigitalEntertainment from '../../pages/ForumsDigitalEntertainment';
+import GroupList from '../../pages/GroupList';
+import BadgeList from '../../pages/BadgeList';
+import RankList from '../../pages/RankList';
+import BusinessPageGroup from '../../pages/BusinessPageGroup';
+import BusinessTopics from '../../pages/BusinessTopics';
+import BusinessMembers from '../../pages/BusinessMembers';
+import BusinessFriendsSelect from '../../pages/BusinessFriendsSelect';
+import BusinessMediaGallery from '../../pages/BusinessMediaGallery';
 
 const RightLayout = () => {
 
@@ -41,8 +52,11 @@ const RightLayout = () => {
        <Route path="/activity" element={<Activity />} />
        <Route path="/messages" element={<Messages />} />
        <Route path="/members" element={<Members />} />
+       <Route path="/member-forums" element={<MemberForums />} />
+       <Route path="/forums-general-discussion" element={<ForumsGeneralDiscussion />} />
        <Route path="/member-activity" element={<MemberActivity />} />
        <Route path="/member-notification-count" element={<MemberNotificationCount />} />
+       <Route path="/forums-digital-entertainment" element={<ForumsDigitalEntertainment />} />
        <Route path="/member-profile" element={<MemberProfile />} />
        <Route path="/member-notification" element={<MemberNotification />} />
        <Route path="/member-general" element={<MemberGeneral />} />
@@ -57,6 +71,14 @@ const RightLayout = () => {
        <Route path="/events" element={<Events />} />
        <Route path="/news" element={<News />} />
        <Route path="/jobs" element={<Jobs />} />
+       <Route path="/groupList" element={<GroupList />} />
+       <Route path="/badgeList" element={<BadgeList />} />
+       <Route path="/rankList" element={<RankList />} />
+       <Route path="/businessPage" element={<BusinessPageGroup />} />
+       <Route path="/businessTopics" element={<BusinessTopics />} />
+       <Route path="/businessMembers" element={<BusinessMembers />} />
+       <Route path="/businessFriendsSelect" element={<BusinessFriendsSelect />} />
+       <Route path="/businessMediaGallery" element={<BusinessMediaGallery />} />
        <Route path="*" element={<ErrorPage />} /> 
        </Routes>
             
