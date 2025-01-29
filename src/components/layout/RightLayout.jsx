@@ -36,6 +36,9 @@ import BusinessTopics from '../../pages/BusinessTopics';
 import BusinessMembers from '../../pages/BusinessMembers';
 import BusinessFriendsSelect from '../../pages/BusinessFriendsSelect';
 import BusinessMediaGallery from '../../pages/BusinessMediaGallery';
+import BusinessMessages from '../../pages/BusinessMessages';
+import BusinessDocs from '../../pages/BusinessDocs';
+import BusinessCourse from '../../pages/BusinessCourse';
 
 const RightLayout = () => {
 
@@ -79,6 +82,9 @@ const RightLayout = () => {
        <Route path="/businessMembers" element={<BusinessMembers />} />
        <Route path="/businessFriendsSelect" element={<BusinessFriendsSelect />} />
        <Route path="/businessMediaGallery" element={<BusinessMediaGallery />} />
+       <Route path="/businessMessages" element={<BusinessMessages />} />
+       <Route path="/businessDocs" element={<BusinessDocs />} />
+       <Route path="/businessCourse" element={<BusinessCourse />} />
        <Route path="*" element={<ErrorPage />} /> 
        </Routes>
             
